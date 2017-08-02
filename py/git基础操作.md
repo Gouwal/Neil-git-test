@@ -1,5 +1,6 @@
 # Git基础操作
-1. 设置Git的user name and email:<br>
+---
++ 设置Git的user name and email:<br>
 2. 生成 ssh key $ ssh-keygen -t rsa -C "email"<br>
 3. 上传key 到 github; 其中复制key的命令为 clip<~/.ssh/id_rsa.pub<br>
 4. 测试 ssh-T<br>
@@ -10,3 +11,7 @@
 9. git pull origin master 更新远程更新到本地<br>
 10. git merge <branch> 把一个分支或某个commit的修改合并到现在的分支上<br>
 11. git remote -v 参看远程主机的网址
+
+------
+ ***[Git如何添加远程库在Github](http://www.runoob.com/git/git-remote-repo.html "Git")***  
+  ***[Git - 生成ssh key步骤以及如何clone所有的远程分支 ](http://www.cnblogs.com/gongyuhonglou/p/6922721.html "Git")***
